@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>col, row 복습</title>
+</head>
+            <!-- colspan 가로 rowspan 세로 -->
+<body>
+    <table border="1" cellspacing="0">
+        <!-- 1행, 2행 (통합) -->
+        <tr>
+            <th colspan="2" rowspan="2">구분</th>
+            <th rowspan="2">학사학위</th>
+            <th colspan="2">전문학사학위</th>
+            <th rowspan="2">비고</th>
+        </tr>
+        <!-- 2행만 -->
+        <tr>
+            <th>부전공자</th>
+            <th>전공자</th>
+        </tr>
+        <!-- 3행 -->
+        <tr>
+            <td>1</td>
+            <td>전공</td>
+            <td>140학점 이상</td>
+            <td>80학점 이상</td>
+            <td>120학점 이상</td>
+            <td rowspan="2">공통</td>
+        </tr>
+        <!-- 4행 -->
+        <tr>
+            <td>2</td>
+            <td>전공</td>
+            <td>60학점 이상</td>
+            <td>45학점 이상</td>
+            <td>54학점 이상</td>
+        </tr>
+        <!-- 5행 -->
+        <tr>
+            <td>3</td>
+            <td colspan="4">전공필수는 희망하는 전공에 따라 전필학점 또는 전필과목을 모두 이수해야 함</td>
+            <td>교육인적자원부장관</td>
+        </tr>
+        <!-- 6행 -->
+        <tr>
+            <td>4</td>
+            <td>해당 대학의 학점</td>
+            <td>84학점 이상</td>
+            <td>48학점 이상</td>
+            <td>65학점 이상</td>
+            <td rowspan="2">대학의 장</td>
+        </tr>
+        <!-- 7행 -->
+        <tr>
+            <td>5</td>
+            <td colspan="4">전공필수는 희망하는 전공에 따라 전필학점 또는 전필과목을 모두 이수해야 함</td>
+        </tr>
+    </table>
+</body>
+</html>
